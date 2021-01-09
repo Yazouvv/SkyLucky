@@ -1,0 +1,31 @@
+{
+  "display": {
+    "background": "minecraft:textures/blocks/stone.png",
+    "icon": {
+      "item": "skyfacmod:skyluckyblock"
+    },
+    "title": {
+      "translate": "advancements.openlucky.title"
+    },
+    "description": {
+      "translate": "advancements.openlucky.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "openlucky": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "item": "skyfacmod:skyluckyblock"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  }
+}

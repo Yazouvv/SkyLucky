@@ -1,0 +1,119 @@
+{
+  "id_map": {
+    "GUI": 1
+  },
+  "mod_elements": [
+    {
+      "name": "Skyluckyblock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "skyluckyblock"
+    },
+    {
+      "name": "Luckyblock",
+      "type": "gui",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 1
+      },
+      "registry_name": "luckyblock"
+    },
+    {
+      "name": "Giveaways",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "giveaways",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Openlucky",
+      "type": "achievement",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "openlucky"
+    },
+    {
+      "name": "Skylucky",
+      "type": "tab",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "skylucky"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Lucky",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.openlucky.descr": "Ouvrir un Sky Lucky Block",
+      "tile.skyluckyblock.name": "Skyluckyblock",
+      "advancements.openlucky.title": "SkyLuck",
+      "itemGroup.tabskylucky": "Skylucky"
+    },
+    "fr_fr": {
+      "advancements.openlucky.descr": "Ouvrir un Sky Lucky Block",
+      "tile.skyluckyblock.name": "Skyluckyblock",
+      "advancements.openlucky.title": "SkyLuck",
+      "itemGroup.tabskylucky": "Skylucky"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "skyfacmod",
+    "modName": "SkyFacMod",
+    "version": "1.0.0",
+    "author": "lois2, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.12.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.yazouv.skyfacmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}
